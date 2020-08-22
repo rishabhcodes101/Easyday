@@ -1,0 +1,73 @@
+</style>
+.outer
+{
+height:auto;
+width:100%;
+border:1px solid white;
+//margin:0px auto;
+}
+.menu
+{
+height:10%;
+width:100%;
+position:sticky;
+top:0;
+z-index:1;
+}
+.left
+{
+height:100%;
+width:85%;
+background-color:#7ec04c;
+float:left;
+}
+.right
+{
+height:100%;
+width:15%;
+background-color:#7ec04c;
+float:right;
+}
+.left ul
+{
+list-style-type:none;
+}
+.left ul li
+{
+display:inline-block;
+padding:10px;
+float:left;
+width:15%;
+margin-top:10px;
+text-align:center;
+}
+.left ul li a
+{
+text-decoration:none;
+color:white;
+}
+.right ul
+{
+list-style-type:none;
+}
+.right ul li
+{
+display:inline-block;
+padding:10px;
+width:15%;
+text-align:center;
+margin-top:8px;
+margin-left:10px;
+}
+.right ul li a
+{
+text-decoration:none;
+color:white;
+}
+.login
+{
+	height:100%;
+	width:100%;
+	background-color:#037ec4;
+}
+</style>
