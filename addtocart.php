@@ -13,7 +13,7 @@ session_start();
 		$res1=mysql_query($query1);
 		if($row=mysql_fetch_array($res1,MYSQL_BOTH))
 		{
-			echo "<script>alert('Item Already Added');window.location.href='index.php';</script>";
+			echo "<script>alert('Item Already Added to Cart');window.location.href='index.php';</script>";
 		}
 		else
 		{
